@@ -50,11 +50,11 @@
 Clonez le dépôt et ouvrez le dossier du projet :
 
 ```bash
-git clone https://github.com/VOTRE-PSEUDO/SoNote.git
+git clone https://github.com/c0dexio/SoNote.git
 cd SoNote
 ```
 
-Remplacez `VOTRE-PSEUDO` par votre nom d’utilisateur GitHub, puis créez un environnement Python et installez la dépendance :
+Créez un environnement Python et installez la dépendance :
 
 **Windows — PowerShell**
 
