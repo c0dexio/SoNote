@@ -1,0 +1,14 @@
+# Données personnelles de l'application
+/data/
+
+# Environnements et fichiers Python temporaires
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Fichiers locaux d'éditeur et de système
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">SoNote — Vos idées, votre espace</title>
+  <desc id="desc">Bannière de présentation de SoNote, une application de notes locale avec une arborescence de dossiers et un éditeur épuré.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#172c25"/>
+      <stop offset="1" stop-color="#29483a"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffefa"/>
+      <stop offset="1" stop-color="#f4f2ea"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#0b1711" flood-opacity=".32"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="440" rx="28" fill="url(#bg)"/>
+  <circle cx="1050" cy="35" r="250" fill="#73947d" opacity=".09"/>
+  <circle cx="1100" cy="410" r="175" fill="#c2b788" opacity=".07"/>
+  <path d="M0 360C210 300 330 470 600 390s410-40 600-110v160H0Z" fill="#101f19" opacity=".18"/>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <rect x="76" y="72" width="44" height="44" rx="14" fill="#8eae91"/>
+    <text x="98" y="103" text-anchor="middle" fill="#173025" font-size="28" font-weight="700">s</text>
+    <text x="134" y="102" fill="#eaf0e8" font-size="22" font-weight="650" letter-spacing="-.5">sonote</text>
+
+    <text x="76" y="193" fill="#fffdf6" font-family="Georgia,serif" font-size="54" font-weight="500" letter-spacing="-1.5">Vos idées.</text>
+    <text x="76" y="252" fill="#d4e1d2" font-family="Georgia,serif" font-size="54" font-weight="500" letter-spacing="-1.5">Votre espace.</text>
+    <text x="78" y="300" fill="#bdcfc0" font-size="17">Prenez des notes, organisez-les, gardez-les chez vous.</text>
+
+    <g transform="translate(78 342)" font-size="12" font-weight="600">
+      <rect width="122" height="34" rx="17" fill="#ffffff" opacity=".11" stroke="#d7e4d8" stroke-opacity=".22"/>
+      <circle cx="17" cy="17" r="4" fill="#a7c99e"/><text x="30" y="21" fill="#e8efe7">100 % local</text>
+      <rect x="132" width="118" height="34" rx="17" fill="#ffffff" opacity=".11" stroke="#d7e4d8" stroke-opacity=".22"/>
+      <path d="M149 13h12v10h-12zM152 10h12v10" fill="none" stroke="#d9c99c" stroke-width="1.5"/><text x="169" y="21" fill="#e8efe7">SQLite</text>
+      <rect x="260" width="125" height="34" rx="17" fill="#ffffff" opacity=".11" stroke="#d7e4d8" stroke-opacity=".22"/>
+      <path d="M277 11v12m-5-6h10" stroke="#c1d9c4" stroke-width="1.7"/><text x="294" y="21" fill="#e8efe7">Hors ligne</text>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)" transform="translate(560 57)">
+    <rect width="570" height="326" rx="16" fill="url(#paper)"/>
+    <path d="M16 0h132v326H16A16 16 0 0 1 0 310V16A16 16 0 0 1 16 0Z" fill="#f1f1ed"/>
+    <circle cx="22" cy="23" r="4" fill="#d0d2cb"/><circle cx="36" cy="23" r="4" fill="#d0d2cb"/><circle cx="50" cy="23" r="4" fill="#d0d2cb"/>
+    <rect x="14" y="48" width="116" height="25" rx="6" fill="#e5e9e2"/>
+    <text x="24" y="65" fill="#64806a" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="600">＋  Nouvelle page</text>
+    <text x="17" y="100" fill="#9b9e96" font-family="Segoe UI,Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1">ESPACE DE TRAVAIL</text>
+    <text x="21" y="127" fill="#72766e" font-family="Segoe UI,Arial,sans-serif" font-size="11">⌄　📁 Projets</text>
+    <rect x="28" y="137" width="100" height="24" rx="5" fill="#e5e9e2"/>
+    <text x="37" y="153" fill="#46604c" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="600">📝　Idées du jour</text>
+    <text x="37" y="180" fill="#777b72" font-family="Segoe UI,Arial,sans-serif" font-size="10">📝　À lire</text>
+    <text x="21" y="211" fill="#777b72" font-family="Segoe UI,Arial,sans-serif" font-size="11">⌄　📁 Personnel</text>
+    <text x="37" y="236" fill="#777b72" font-family="Segoe UI,Arial,sans-serif" font-size="10">📝　Journal</text>
+    <path d="M148 0v326" stroke="#e9e9e3"/>
+    <text x="184" y="35" fill="#85887f" font-family="Segoe UI,Arial,sans-serif" font-size="10">📝　Idées du jour　 /　● Enregistré</text>
+    <text x="184" y="102" fill="#343b32" font-family="Georgia,serif" font-size="31" font-weight="600">Une page à soi</text>
+    <text x="184" y="128" fill="#a0a198" font-family="Segoe UI,Arial,sans-serif" font-size="9">Modifié à l’instant　·　Privé</text>
+    <path d="M184 151h352" stroke="#e9e9e3"/>
+    <text x="184" y="188" fill="#52735a" font-family="Georgia,serif" font-size="20" font-weight="600">Mettre ses idées en ordre</text>
+    <text x="184" y="216" fill="#5e625a" font-family="Segoe UI,Arial,sans-serif" font-size="11">Un endroit calme pour écrire, réfléchir et retrouver</text>
+    <text x="184" y="235" fill="#5e625a" font-family="Segoe UI,Arial,sans-serif" font-size="11">facilement ce qui compte.</text>
+    <rect x="184" y="258" width="352" height="42" rx="7" fill="#f0f1ed"/>
+    <text x="199" y="284" fill="#8a8d84" font-family="Consolas,monospace" font-size="10">Vos notes restent sur cet ordinateur.</text>
+  </g>
+</svg>
